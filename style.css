@@ -3,7 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
     
+}
+
+body{
+    overflow-x: hidden;
 }
 
 /* header */
@@ -174,5 +179,6 @@
     color: aliceblue;
     border: 2px solid white;
     border-radius: 6px;
+    overflow-y: hidden;
 }
 
