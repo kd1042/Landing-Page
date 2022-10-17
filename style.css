@@ -3,8 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 
+/* header */
 .header-container{
     height: 100px;
     background-color:lightseagreen;
@@ -19,6 +21,7 @@
     border-radius: 10px;
 }
 
+/* login & about button */
 .menu{
    margin-left: 1050px;
    padding: 40px;
@@ -38,4 +41,138 @@
     border: 2px white solid;
     border-radius: 10px;
 }
-   
+
+/* Home-Page */
+.content{
+    height: 300px;
+   padding: 100px;
+    background-color: gray;
+    color: black;
+}
+
+.banner{  /*image on home page */
+    margin-left: 800px;
+    margin-top: -90px;
+    padding-left: 108px;
+    padding-top: 85px;
+    width: 300px;
+    height: 200px;
+    background-color: bisque;
+    border: white 2px solid;
+    border-radius: 10px;
+    display: flex;
+}
+
+.main-text{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.button{
+    margin-top: 10px;
+    padding-left: 12px;
+    padding-bottom: 20px;
+    width:160px;
+    height: 20px;
+    background-color: aliceblue;
+    border: black 2px solid;
+    border-radius: 10px;
+}
+
+/* Photo Gallery*/
+.grid-container{
+    background-color:lightslategray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    color: azure;
+}
+
+.ph{ /* indiviual photos */
+    padding: 50px;
+    width: 150px;
+    height: 150px;
+    background-color: antiquewhite;
+    border: white 2px solid;
+    border-radius: 10px;
+}
+  
+.photo-grid{ /* gallery */
+    padding-top: 12px;
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+}
+
+.desc{
+     padding-top: 15px;
+     padding-bottom: 15px;
+     display: flex;
+     width: 1000px;
+     justify-content:space-between;
+
+}
+
+.di{
+    color: azure;
+    background-color: black;
+    width: 150px;
+    padding-left: 50px;
+    border: 2px white solid;
+    border-radius: 10px;
+}
+
+.quote{
+    height: 200px;
+    padding-left: 140px;
+    font-family: calibri ;  
+    font-style: italic;
+    font-size: 30px;  
+    background-color: gray;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+}
+
+.news-letter{
+    background-color: lightslategray;
+    color: aliceblue;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.box{
+    padding: 350px;
+}
+
+.ns{
+    font-size: 24px;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.join{
+    padding:10px  ;
+    margin-top: 14px;
+    width: 150px;
+    font-size: 15px ;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.footer{
+    padding-left: 600px;
+    padding-top: 40px;
+    height: 100px;
+    background-color: lightseagreen;
+    color: aliceblue;
+    border: 2px solid white;
+    border-radius: 6px;
+}
+
